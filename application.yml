@@ -26,7 +26,7 @@ spring:
     properties:
       hibernate:
         format_sql: true
-        use_sql_comments: true  # Adds comments to the generated SQL for better readability
+        # use_sql_comments: true  # Adds comments to the generated SQL for better readability
     hibernate:
       ddl-auto: update
       # naming:  # naver use this like this is crearing not auto name like planId = plan_id but this will create error
