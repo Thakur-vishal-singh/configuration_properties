@@ -22,7 +22,7 @@ spring:
     password: root
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
-    show-sql: true
+    show-sql: false
     properties:
       hibernate:
         format_sql: false
