@@ -29,6 +29,8 @@ spring:
         # use_sql_comments: true  # Adds comments to the generated SQL for better readability
     hibernate:
       ddl-auto: update
+common:
+  message: "hello vishal"
       # naming:  # naver use this like this is crearing not auto name like planId = plan_id but this will create error
       #   physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl  # Use standard naming strategy
   # logging:  # after this last three lines we will try when we do the log files in the spring boot
