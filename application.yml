@@ -22,10 +22,10 @@ spring:
     password: root
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
-    show-sql: true
+    show-sql: false
     properties:
       hibernate:
-        format_sql: true
+        format_sql: false
         # use_sql_comments: true  # Adds comments to the generated SQL for better readability
     hibernate:
       ddl-auto: update
